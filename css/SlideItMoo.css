@@ -1,0 +1,76 @@
+/* ----------------IMAGE SLIDER------------- */
+#main-comite {
+	width: 320px !important;
+    position:relative; 
+    margin:10px auto 0px; 
+    padding:0px 10px 0px;
+}
+/* create custom forward-backward buttons for this container */
+#main-comite .SlideItMoo_forward,
+#main-comite .SlideItMoo_back{ 
+    display:block; 
+    position:absolute; 
+    cursor:pointer; 
+    width:20px;
+    height:70px; 
+    bottom:0px; 
+    right:0px; 
+    background:url(../images/nav-comite.gif) no-repeat -20px 0px;  
+}
+#main-comite .SlideItMoo_back { 
+    left:0px; 
+    background-position: -20px -70px;
+    z-index: 2;
+}
+
+#main-comite .SlideItMoo_forward:hover {
+	background-position: 0px 0px;
+}
+
+#main-comite .SlideItMoo_back:hover {
+	background-position: 0px -70px;
+}
+
+/* the width is set to show the number of thumbnails that will be visible */
+#SlideItMoo_inner{
+    height:70px;
+	width: 280px !important;
+    margin:0 auto 0 10px;
+    overflow:hidden;
+/*    padding:10px 0;*/
+    position:relative;
+    z-index: 0;
+}
+/* the thumbnails container; set a width on it so everything will be fine */
+#SlideItMoo_items {
+    float: left;
+    position:relative; 
+}
+/* single element design */
+#SlideItMoo_items div.SlideItMoo_element {
+    float:left;
+    position:relative; 
+    margin:0px;
+/*    width:65px; */
+/*    text-align:center;*/
+}
+
+#main #main-comite img {
+    margin:10px 15px;
+    height: 50px;
+    overflow: hidden;
+}
+
+/*#SlideItMoo_items div.SlideItMoo_element a {
+    color: #fff;
+}*/
+
+/*#SlideItMoo_items div.SlideItMoo_element a span {
+    float: left;
+    width: 170px;
+    height: 77px;
+    text-indent: -9999px;
+    margin-left: 25px;
+    padding: 5px;
+    margin-top: -10px;
+}*/

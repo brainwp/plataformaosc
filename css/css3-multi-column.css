@@ -1,0 +1,17 @@
+.Article {  
+    column-count: 2;
+    column-gap: 20px;
+    column-rule: 1px dotted #BBB;
+    background-color: #FFFFFF;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;  
+    padding: 8px;
+}
+
+.Article2Col {
+    column-count:2;
+}
+
+.Article3Col {
+    column-count:3;
+}

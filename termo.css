@@ -1,0 +1,22 @@
+* {
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+h1 {
+	font-size: 18px;
+	color: #4B6E94;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+p, a {
+	font-size: 11px;
+	line-height: 18px;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+	color: #626262;
+}
+
+strong {
+font-weight: bold;
+}
